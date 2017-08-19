@@ -40,7 +40,7 @@ function domString(planetz){
 		planetString += newPlanet;
 	}
 	//console.log(planetString)
-	writeToDom(planetString);t
+	writeToDom(planetString);
 
 }
 
@@ -79,8 +79,6 @@ inputField.addEventListener('keypress', function (event){
     //console.log("yay", results);
   }
 })
-
-
 
 getClearButton.addEventListener('click', function(ent){
   //console.log('event', event.key);
